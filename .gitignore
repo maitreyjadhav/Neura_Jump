@@ -1,0 +1,30 @@
+# Godot 4+ specific ignores
+.godot/
+# =========================
+# Godot generated files
+.godot/
+*.import
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# IDE
+.vscode/
+.idea/
+
+# Environment/secrets
+.env
+.env.*
+
+# Logs
+*.log
