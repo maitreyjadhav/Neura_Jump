@@ -60,21 +60,3 @@ Godot Environment
       Reward
        ↓
    AI Training
-
-Project Structure
-   Neura_Jump/
-│
-├── assets/                  # Game assets
-├── scenes/                  # Godot scenes
-├── scripts/                 # Godot scripts
-├── AI_data/                 # AI-related data
-│
-├── project.godot            # Godot project configuration
-├── model.py                 # Neural network/model
-├── model.pth                # Trained model
-├── neat_runner.py           # AI training
-├── neat_runner_backup.py    # Backup training script
-├── play_trained_ai.py       # Run trained AI
-├── ai_action.json           # AI ↔ Godot communication
-├── reward_log.json           # Reward/training logs
-└── requirements.txt         # Python dependencies
